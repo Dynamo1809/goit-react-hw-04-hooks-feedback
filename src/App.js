@@ -38,7 +38,7 @@ function App() {
     const integerPercentage = Math.round(good * 100 / countTotalFeedback());
     return integerPercentage;
   };
-    console.log({good,neutral,bad})
+  
     return (
       <Fragment>
         <Section title="Please leave feedback">
